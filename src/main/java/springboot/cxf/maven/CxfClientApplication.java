@@ -10,6 +10,7 @@ import springboot.cxf.maven.services.SchoolService;
 import springboot.cxf.maven.services.StudentService;
 
 public class CxfClientApplication {
+	
     public static void main(String[] args) {
         JaxWsProxyFactoryBean factory = new JaxWsProxyFactoryBean();
 
